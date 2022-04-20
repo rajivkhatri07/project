@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-image: url("../images/banner.png");
+}
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+
+    
+}
+ul{
+    float: left;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a {
+    text-decoration: none;
+    color: blue;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:yellow;
+}
+.search {
+    width: 330px;
+    float: right;
+    margin-left: 260px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1x solid #ff7200;
+    margin-top: 13px;
+    color: black;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 12px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;  
+    
+}
+.btn {
+    width: 130px;
+    height: 40px;
+    background: blue;
+    border: 3px solid blue;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+   
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.heading{
+    text-align: center;
+    height: 65px;
+   color: blue;
+   background-color: orange;
+   
+}
